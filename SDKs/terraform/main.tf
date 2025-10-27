@@ -19,8 +19,8 @@ resource "github_repository" "example" {
   visibility = "public"
 
   template {
-  owner      = "10rohan"
-  repository = "github-examples"  # lowercase
+  owner      = "rohankumars01"
+  repository = "Testing"  # lowercase
   include_all_branches = false
 }
 
