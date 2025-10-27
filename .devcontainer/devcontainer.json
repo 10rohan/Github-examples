@@ -1,0 +1,29 @@
+{
+  "name": "basic configure",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "gitGraph.defaultColumnVisibility": {
+          "author": true,
+          "date": true,
+          "sha": true,
+          "message": true
+        },
+        "gitGraph.customCommands": [
+          {
+            "name": "muchie.git-graph",
+            "command": "git log --graph"
+          },
+          {
+            "name": "ill1294.git-log-graph",
+            "command": "git log --graph"
+          }
+        ]
+      }
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/devcontainers/features/terraform:1": {}
+  }
+}
