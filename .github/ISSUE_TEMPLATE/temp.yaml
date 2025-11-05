@@ -23,7 +23,7 @@ body:
       label: Description
       description: Details about the bug
       placeholder: ex. The app crashes when I click Save
-      value: ""
+      value: "Please describe the bug here."
     validations:
       required: true
   - type: input
